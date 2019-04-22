@@ -1,0 +1,21 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "federated-20190419151610-authRole",
+            "UnauthRoleArn": "arn:aws:iam::244958302947:role/federated-20190419151610-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::244958302947:role/federated-20190419151610-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "federated-20190419151610-deployment",
+            "UnauthRoleName": "federated-20190419151610-unauthRole",
+            "StackName": "federated-20190419151610",
+            "StackId": "arn:aws:cloudformation:us-east-1:244958302947:stack/federated-20190419151610/bcbf7d90-62f0-11e9-9a2f-1204ddd846a2"
+        },
+        "categories": {
+            "auth": {
+                "cognito9df6ea42": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"439741070166052\",\"client_secret\":\"9af1ee9f8a7e4637940cf55ee255d505\"},{\"ProviderName\":\"Google\",\"client_id\":\"102127712768-l74jcqmdff6inelbmgkbpjkdboie7gd6.apps.googleusercontent.com\",\"client_secret\":\"cpdLB0yO1iyX4ATEP8kKmOw9\"}]"
+                }
+            }
+        }
+    }
+}
