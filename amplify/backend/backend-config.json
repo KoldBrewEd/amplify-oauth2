@@ -1,14 +1,15 @@
 {
-	"auth": {
-		"cognito9df6ea42": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
-		}
-	},
 	"hosting": {
 		"S3AndCloudFront": {
 			"service": "S3AndCloudFront",
 			"providerPlugin": "awscloudformation"
 		}
-	}
+	},
+	"auth": {
+		"cognito5a6a2c96": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {}
 }
